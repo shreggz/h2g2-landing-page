@@ -1,0 +1,75 @@
+.header {
+    padding: 24px 48px 24px 48px;
+    background-color: #1F2937;
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+    font-family: Menlo, "Courier New", monospace;
+    font-size: 24px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    font-family: Menlo, "Courier New", monospace;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    gap: 60px;
+}
+
+.button {
+    margin-top: 24px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 12px;
+    display: inline-block;
+    font-family: Menlo, "Courier New", monospace;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+h1 {
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-size: 36px;
+    font-family: Menlo, "Courier New", monospace;
+}
+
+.hero-secondary {
+    color: #e5e7eb;
+    font-size: 16px;
+    font-family: Menlo, "Courier New", monospace;
+}
+
+#dont-panic {
+    display: flex;
+    margin-left: auto;
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+}
