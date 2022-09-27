@@ -127,3 +127,14 @@ h1 {
 .purchase > button {
     border: 4px solid #f9faf8;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: Menlo, "Courier New", monospace;
+    font-size: 12px;
+}
