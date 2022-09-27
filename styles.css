@@ -1,6 +1,6 @@
 .header {
     padding: 24px 48px 24px 48px;
-    background-color: #1F2937;
+    background-color: #483248;
 }
 
 body {
@@ -43,7 +43,7 @@ ul {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: #2195b5;
     color: #f9faf8;
     border: none;
     padding: 12px;
@@ -104,33 +104,42 @@ h1 {
 }
 
 .social-proof {
-    background-color: #e5e7eb;
+    background-color: #000000;
     font-family: Menlo, "Courier New", monospace;
     padding: 48px;
     margin: 48px 0px;
     font-size: 16px;
     font-style: italic;
-    color: #1f2937;
+    color: #E5E7EB;
 }
 
 .purchase {
     display: flex;
     justify-content: space-around;
-    padding: 16px 32px;
+    padding: 32px 32px;
     margin: 72px;
-    background-color: #3882f6;
+    background-color: #2195b5;
     color: #f9faf8;
     align-items: center;
     border-radius: 4px;
 }
 
+.purchase-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: Menlo, "Courier New", monospace;
+    flex-wrap: wrap;
+
+}
+
 .purchase > button {
-    border: 4px solid #f9faf8;
+    border: 2px solid #f9faf8;
 }
 
 .footer {
     display: flex;
-    background-color: #1f2937;
+    background-color: #483248;
     color: #f9faf8;
     margin: 0px;
     justify-content: center;
