@@ -102,3 +102,13 @@ h1 {
 .entry > .text {
     margin-top: 8px;
 }
+
+.social-proof {
+    background-color: #e5e7eb;
+    font-family: Menlo, "Courier New", monospace;
+    padding: 48px;
+    margin: 48px 0px;
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+}
