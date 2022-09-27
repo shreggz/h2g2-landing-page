@@ -26,6 +26,30 @@ ul {
     color: #E5E7EB;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a {
+    color: #E5E7EB;
+}
+
+.text {
+    color: #483248;
+}
+
 .banner {
     display: flex;
     justify-content: space-between;
@@ -146,4 +170,8 @@ h1 {
     align-items: center;
     font-family: Menlo, "Courier New", monospace;
     font-size: 12px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
