@@ -73,3 +73,32 @@ h1 {
     height: auto;
     object-fit: contain;
 }
+
+.title {
+    color: #1f2937;
+    font-size: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+    font-family: Menlo, "Courier New", monospace;
+    font-weight: extra-bold;
+}
+
+.images > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.sample-entries {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: Menlo, "Courier New", monospace;
+    font-size: 16px;
+}
+
+.entry > .text {
+    margin-top: 8px;
+}
