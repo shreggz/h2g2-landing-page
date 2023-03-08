@@ -1,3 +1,7 @@
+* {
+    font-family: 'Fira Mono', monospace;
+}
+
 .header {
     padding: 24px 48px 24px 48px;
     background-color: #483248;
@@ -8,7 +12,6 @@ body {
 }
 
 .logo {
-    font-family: Menlo, "Courier New", monospace;
     font-size: 24px;
     font-style: extra-bold;
     color: #F9FAF8;
@@ -21,7 +24,6 @@ ul {
     display: flex;
     justify-content: space-evenly;
     gap: 24px;
-    font-family: Menlo, "Courier New", monospace;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -78,7 +80,6 @@ button {
     border: none;
     padding: 12px;
     display: inline-block;
-    font-family: Menlo, "Courier New", monospace;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
@@ -88,13 +89,11 @@ h1 {
     color: #f9faf8;
     font-weight: extra-bold;
     font-size: 36px;
-    font-family: Menlo, "Courier New", monospace;
 }
 
 .hero-secondary {
     color: #e5e7eb;
     font-size: 16px;
-    font-family: Menlo, "Courier New", monospace;
 }
 
 #dont-panic {
@@ -111,7 +110,6 @@ h1 {
     margin-top: 48px;
     margin-bottom: 48px;
     text-align: center;
-    font-family: Menlo, "Courier New", monospace;
     font-weight: extra-bold;
 }
 
@@ -126,7 +124,6 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    font-family: Menlo, "Courier New", monospace;
     font-size: 16px;
 }
 
@@ -136,7 +133,6 @@ h1 {
 
 .social-proof {
     background-color: #000000;
-    font-family: Menlo, "Courier New", monospace;
     padding: 48px;
     margin: 48px 0px;
     font-size: 16px;
@@ -159,7 +155,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-content: center;
-    font-family: Menlo, "Courier New", monospace;
     flex-wrap: wrap;
 
 }
@@ -176,7 +171,6 @@ h1 {
     margin: 0px;
     justify-content: center;
     align-items: center;
-    font-family: Menlo, "Courier New", monospace;
     font-size: 12px;
 }
 
@@ -193,7 +187,6 @@ html {
     justify-content: center;
     margin: auto;
     color: #483248;
-    font-family: Menlo, "Courier New", monospace;
     margin-top: 24px;
     margin-bottom: 48px;
 }
